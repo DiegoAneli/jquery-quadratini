@@ -1,0 +1,28 @@
+*{
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+
+}
+
+#griglia {
+  padding: 0;
+  margin: 0;
+}
+
+#griglia > li {
+  border: 2px solid #333333;
+  display: inline-block;
+  width:  80px;
+  height: 80px;
+  margin: 10px;
+  background-color: #abe2ff;
+}
+
+#container {
+	background: #e3e3e3;
+	max-width: 850px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+}
